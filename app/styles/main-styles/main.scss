@@ -1,0 +1,23 @@
+.container {
+    .nav {
+        border-bottom: 1px solid rgba(black, 0.2);
+        ul {
+            text-align: center;
+            padding: 20px 0;
+            li {
+                display: inline-block;
+                list-style: none;
+                font-size: 24px;
+                margin-left: 20px;
+            }
+        }
+    }
+    .main {
+        .main-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 50px;
+        }
+    }
+}
